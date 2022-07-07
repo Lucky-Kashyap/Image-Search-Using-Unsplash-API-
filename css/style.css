@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #30879e;
+}
+.banner .logo h1{
+    font-size: 30px;
+}
+
+.input-box{
+    margin-top: 40px;
+    border-radius: 20px;
+   
+}
+.input-box input{
+    width: 80%;
+    height: 40px;
+    border-color: #4190a8;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.input-box .fa{
+    position: relative;
+    left: -30px;
+    font-size: 20px;
+    color:#16ac93;
+}
+
+
+
+.image-box .box .name{
+    display: none;
+}
+.image-box{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image-box .box{
+    width: 30%;
+}
+.image-box .box img{
+    width: 90%;
+    
+}
+
+/* Media Query */
+
+@media only screen and (max-width:1000px){
+    .image-box .box{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .image-box .box{
+        width: 45%;
+    }
+}
+@media only screen and (max-width:500px){
+    .image-box .box{
+        width: 90%;
+    }
+}
